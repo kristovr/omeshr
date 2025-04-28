@@ -4,8 +4,10 @@
 
 <nav>
 	<div class="flex justify-between m-6">
-		<a href="#top">OmeshR</a>
-		<ul class="flex align-middle lg:gap-x-[15vw] md:gap-x-[10vw] sm:gap-x-[5vw]">
+		<a href="#top">
+			<img class="w-14" src="/images/omeshr-logo.svg" alt="logo" srcset="">
+		</a>
+		<ul class="flex align-middle lg:gap-x-[5vw] md:gap-x-[3vw] sm:gap-x-[1vw]">
 			<li>
 				<a href="top#">About</a>
 			</li>
