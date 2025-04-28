@@ -1,31 +1,46 @@
 <script lang="ts">
-	import { Icon, Moon } from 'svelte-hero-icons';
+	import { Icon, Moon, Bars3 } from 'svelte-hero-icons';
+	let showMenu: boolean = false;
+
+	function toggleMobileNavBar(): void {
+		showMenu = !showMenu;
+	}
+
+	function closeMobileNavBar(): void {
+		showMenu = false;
+	}
 </script>
 
 <nav>
-	<div class="flex justify-between m-6">
-		<a href="#top">
+	<div class="grid grid-cols-3 gap-4">
+		<a href="/" class="p-4">
 			<img class="w-14" src="/images/omeshr-logo.svg" alt="logo" srcset="">
 		</a>
-		<ul class="flex align-middle lg:gap-x-[5vw] md:gap-x-[3vw] sm:gap-x-[1vw]">
+		<ul class="grid grid-cols-4 justify-items-center items-center p-4">
 			<li>
-				<a href="top#">About</a>
+				<a href="/about">About</a>
 			</li>
 			<li>
-				<a href="top#">Projects</a>
+				<a href="/projects">Projects</a>
 			</li>
 			<li>
-				<a href="top#">Blog</a>
+				<a href="/blog">Blog</a>
 			</li>
 			<li>
-				<a href="top#">Contact</a>
+				<a href="/contact">Contact</a>
 			</li>
 		</ul>
-        <div class="flex justify-evenly">
-            <a href="#top" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">Hire Me</a>
-		    <button type="button" class="ml-4">
-				<Icon src="{Moon}" size="32" solid/>
+        <div class="flex justify-end p-4 gap-6">
+            <a href="#top" class="bg-primary hover:bg-blue-700 text-white py-2 px-4 rounded">Hire Me</a>
+		    <button type="button" class="bg-brand p-1 rounded">
+				<Icon src="{Moon}" size="32" outline/>
+			</button>
+			<button type="button" class="flex md:hidden bg-brand p-1 rounded" on:click={toggleMobileNavBar}>
+				<Icon src="{Bars3}" size="32" outline/>
 			</button>
         </div>
+	</div>
+	<div class="{showMenu ? 'grid' : 'hidden'}">
+		<h1>Hi</h1>
 	</div>
 </nav>
