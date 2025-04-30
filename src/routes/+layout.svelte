@@ -4,8 +4,6 @@
 	let { children } = $props();
 </script>
 
-<PageHeader />
-
 <Navbar />
 
 {@render children()}

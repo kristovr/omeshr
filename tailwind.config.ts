@@ -14,7 +14,7 @@ export default {
 				primary: "#0F59E2",
 				brand: {
 					DEFAULT: "#E6F0FF",
-					heading: "#1A1A1A", 
+					heading: "#1A1A1A",
 				}
 			}
 		}
