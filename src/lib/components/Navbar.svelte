@@ -13,7 +13,7 @@
 
 <nav>
 	<div class="grid grid-cols-3 gap-4">
-		<a href="/" class="p-4">
+		<a href="/" class="m-6">
 			<img class="w-14" src="/images/omeshr-logo.svg" alt="logo" srcset="">
 		</a>
 		<ul class="grid grid-cols-4 justify-items-center items-center p-4">
@@ -30,7 +30,7 @@
 				<a href="/contact">Contact</a>
 			</li>
 		</ul>
-        <div class="flex justify-end p-4 gap-6">
+        <div class="flex justify-end m-6 gap-6">
             <a href="#top" class="bg-primary hover:bg-blue-700 text-white py-2 px-4 rounded">Hire Me</a>
 		    <button type="button" class="bg-brand p-1 rounded">
 				<Icon src="{Moon}" size="32" outline/>
