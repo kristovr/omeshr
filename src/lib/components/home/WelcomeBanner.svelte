@@ -3,6 +3,11 @@
     import Linkedin from '@lucide/svelte/icons/linkedin';
     import CircleArrowRight from '@lucide/svelte/icons/circle-arrow-right';
     import SocialButton from './SocialButton.svelte';
+
+    const githubUrl: string = "https://github.com/kristovr";
+    const linkedinUrl: string = "https://www.linkedin.com/in/omeshr"
+
+
 </script>
 
 <section class="grid grid-flow-col grid-rows-1">
@@ -16,8 +21,8 @@
                     Get to know me<span class="inline-flex ml-2"><CircleArrowRight size=32/></span>
                 </a>
                 <div>
-                    <SocialButton href="https://github.com/kristovr" title="Github" icon={Github} />
-                    <SocialButton href="www.linkedin.com/in/omeshr" title="LinkedIn" icon={Linkedin} className="ml-2"/>
+                    <SocialButton href={githubUrl} title="Github" icon={Github} />
+                    <SocialButton href={linkedinUrl} title="LinkedIn" icon={Linkedin} className="ml-2"/>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@
 </script>
 
 <button class={`transition duration-200 ease-in-out ${bgColor} ${hoverColor} p-3 rounded shadow-md ${className}`}>
-    <a href={href} title={title}>
+    <a href={href} title={title} target="_blank">
         {#if icon}
             <svelte:component this={icon} color="#1A1A1A" />
         {/if}
