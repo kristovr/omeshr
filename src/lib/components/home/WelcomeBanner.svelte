@@ -6,8 +6,6 @@
 
     const githubUrl: string = "https://github.com/kristovr";
     const linkedinUrl: string = "https://www.linkedin.com/in/omeshr"
-
-
 </script>
 
 <section class="grid grid-flow-col grid-rows-1">
