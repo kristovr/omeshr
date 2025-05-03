@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Project 1",
+        "category": "Web Application",
+        "description": "A very hard project I did. It was built with React and MySQL.",
+        "technologies": ["React", "MySQL", "TailwindCSS"],
+        "liveDemo": "https://oshoots.omeshr.com",
+        "sourceCode": "https://github.com",
+        "featuredImage": "images/project-featured.jpg",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "name": "Project 2",
+        "category": "Mobile Application",
+        "description": "A very hard project I did. It was built with React and MySQL.",
+        "technologies": ["React", "PostgreSQL", "TailwindCSS"],
+        "liveDemo": "https://oshoots.omeshr.com",
+        "sourceCode": "https://github.com",
+        "featuredImage": "images/project-featured.jpg",
+        "featured": true
+    },
+    {
+        "id": 3,
+        "name": "Project 3",
+        "category": "Website",
+        "description": "A very hard project I did. It was built with React and MySQL.",
+        "technologies": ["WordPress", "MySQL", "CSS"],
+        "liveDemo": "https://oshoots.omeshr.com",
+        "sourceCode": "https://github.com",
+        "featuredImage": "images/project-featured.jpg",
+        "featured": false
+    },
+    {
+        "id": 4,
+        "name": "Project 4",
+        "category": "Script",
+        "description": "A very hard project I did. It was built with React and MySQL.",
+        "technologies": ["Python", "Pandas"],
+        "liveDemo": "https://oshoots.omeshr.com",
+        "sourceCode": "https://github.com",
+        "featuredImage": "images/project-featured.jpg",
+        "featured": true
+    }
+
+]

@@ -1,20 +1,15 @@
 <script lang="ts">
     import PageHeader from '$lib/components/PageHeader.svelte';
     import WelcomeBanner from '$lib/components/home/WelcomeBanner.svelte';
-    //I want to store some dummy data to use in this file to loop through some data. Where should I store it in this folder structure?
+    import FeaturedProjects from '$lib/components/home/FeaturedProjects.svelte';
+    export let data: { projects: Array<{id: number; name: string; category: string; description: string; technologies: string[]; liveDemo: string; sourceCode: string; featuredImage:string; featured: boolean;}>}
 </script>
 
 <PageHeader pageTitle="Home"/>
 
 <main class="mx-16">
     <WelcomeBanner />
-    <section class="grid grid-flow-col grid-rows-3">
-        <div class="flex justify-center">
-            <h2 class="text-3xl">Explore My Popular Projects</h2>
-        </div>
-        <div>Cards</div>
-        <div>Button</div>
-    </section>
+    <FeaturedProjects projectData={data} />
     <section class="grid grid-flow-col grid-rows-3">
         <div>
             <h2>Heading</h2>
