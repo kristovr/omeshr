@@ -3,9 +3,7 @@
     import Linkedin from '@lucide/svelte/icons/linkedin';
     import CircleArrowRight from '@lucide/svelte/icons/circle-arrow-right';
     import SocialButton from './SocialButton.svelte';
-
-    const githubUrl: string = "https://github.com/kristovr";
-    const linkedinUrl: string = "https://www.linkedin.com/in/omeshr"
+    import { githubUrl, linkedinUrl } from '../../../data/socialUrls';
 </script>
 
 <section class="grid grid-flow-col grid-rows-1">

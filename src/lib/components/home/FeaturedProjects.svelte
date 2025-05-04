@@ -11,7 +11,7 @@
             {#if project.featured}
                 <a href="#top"> <!-- implement url from slug but first need to finish the projects page? idk-->
                     <div class="shadow-md rounded-md transition duration-150 ease-in-out hover:shadow-lg">
-                        <img src={project.featuredImage} alt="Featured" class="rounded-md">
+                        <img src={project.featuredImage} alt="Featured" class="rounded-md h-64 w-auto">
                         <div class="flex flex-col items-center py-4">
                             <h2 class="text-2xl">{project.name}</h2>
                             <h3 class="text-xl font-light">{project.category}</h3>
