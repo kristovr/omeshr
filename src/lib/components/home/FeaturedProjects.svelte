@@ -1,8 +1,9 @@
 <script lang="ts">
-    export let projectData: { projects: Array<{id: number; name: string; category: string; description: string; technologies: string[]; liveDemo: string; sourceCode: string; featuredImage:string; featured: boolean;}>}
+    import type { Project } from '../../../types/data';
+    export let projectData: {projects: Project[]};
 </script>
 
-<section>
+<section class="my-10">
     <div class="flex justify-center">
         <h2 class="text-3xl mb-8">Explore My Popular Projects</h2>
     </div>
@@ -21,7 +22,7 @@
             {/if}
         {/each}
     </div>
-    <div class="flex justify-center mt-8">
+    <div class="flex justify-center my-8">
         <a href="/projects" class="bg-primary text-xl transition duration-200 ease-in-out hover:bg-blue-700 text-white rounded py-2 px-4 shadow-md">
             More Projects
         </a>

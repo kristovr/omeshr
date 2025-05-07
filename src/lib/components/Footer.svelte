@@ -6,7 +6,7 @@
     import { githubUrl, linkedinUrl } from '../../data/socialUrls';
 </script>
 
-<footer class="mx-6">
+<footer class="mx-6 mt-20">
     <div class="grid grid-flow-col grid-rows-2 gap-1">
         <div class="grid grid-cols-3">
             <div class="inline-flex justify-items-center items-center gap-4">

@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "title": "How to configure VSCode",
+        "slug": "how-to-configure-vscode",
+        "author": "Omesh Ramlagan",
+        "featuredImage": "images/vscode.png",
+        "blogUrl": "images",
+        "tags": [],
+        "created_on": "2025-05-06",
+        "updated_on": "2025-05-06",
+        "published": true,
+        "featured": true
+    },
+    {
+        "id": 2,
+        "title": "Building a Todo List With Vue.js",
+        "slug": "building-a-todo-list-with-vue",
+        "author": "Omesh Ramlagan",
+        "featuredImage": "images/vue.png",
+        "blogUrl": "images",
+        "tags": [],
+        "created_on": "2025-05-06",
+        "updated_on": "2025-05-06",
+        "published": true,
+        "featured": true
+    },
+    {
+        "id": 3,
+        "title": "My Third Blog",
+        "slug": "my-third-blog",
+        "author": "Omesh Ramlagan",
+        "featuredImage": "images/svelte.png",
+        "blogUrl": "images",
+        "tags": [],
+        "created_on": "2025-05-06",
+        "updated_on": "2025-05-06",
+        "published": true,
+        "featured": true
+    },
+    {
+        "id": 4,
+        "title": "My Fourth Blog",
+        "slug": "my-fourth-blog",
+        "author": "Omesh Ramlagan",
+        "featuredImage": "images/vscode.png",
+        "blogUrl": "images",
+        "tags": [],
+        "created_on": "2025-05-06",
+        "updated_on": "2025-05-06",
+        "published": true,
+        "featured": true
+    },
+    {
+        "id": 5,
+        "title": "My Fifth Blog",
+        "slug": "my-fifth-blog",
+        "author": "Omesh Ramlagan",
+        "featuredImage": "images/vscode.png",
+        "blogUrl": "images",
+        "tags": [],
+        "created_on": "2025-05-06",
+        "updated_on": "2025-05-06",
+        "published": true,
+        "featured": true
+    },
+    {
+        "id": 6,
+        "title": "My Sixth Blog",
+        "slug": "my-sixth-blog",
+        "author": "Omesh Ramlagan",
+        "featuredImage": "images/vscode.png",
+        "blogUrl": "images",
+        "tags": [],
+        "created_on": "2025-05-06",
+        "updated_on": "2025-05-06",
+        "published": true,
+        "featured": true
+    },
+    {
+        "id": 7,
+        "title": "My Seventh Blog",
+        "slug": "my-fourth-blog",
+        "author": "Omesh Ramlagan",
+        "featuredImage": "images/vscode.png",
+        "blogUrl": "images",
+        "tags": [],
+        "created_on": "2025-05-06",
+        "updated_on": "2025-05-06",
+        "published": true,
+        "featured": true
+    }
+
+]
