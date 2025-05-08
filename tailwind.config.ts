@@ -8,7 +8,10 @@ export default {
 	theme: {
 		extend: {
 			screens: {
-				md: '875px',
+				sm: '320px',
+				md: '500px',
+				lg: '1000px',
+				xl: '1200px',
 			},
 			colors: {
 				primary: "#0F59E2",

@@ -13,7 +13,7 @@
 
 <PageHeader pageTitle="Home"/>
 
-<main class="mx-16">
+<main class=" sm:mx-10 md:mx-14 lg:mx-16">
     <WelcomeBanner />
     <FeaturedProjects projectData={{projects: data.projects}} />
     <FeaturedBlogs blogData={{blogs: data.blogs}}/>
